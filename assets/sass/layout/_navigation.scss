@@ -1,0 +1,82 @@
+.navbar {
+    font-family: 'Old Standard TT bold', serif;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 0px;
+    color: #0c0910;
+}
+.bg-light {
+    background-color: #fff!important;
+}
+
+.logo-izquierda {
+    color: white;
+    background: black;
+    margin-bottom: 0px;
+}
+section {
+  text-align: center;
+}
+
+.collape {
+    text-align: right;
+    padding: 30px;
+    display: none;
+}
+
+.navigation {
+    min-height: 0;
+    padding: 0;
+}
+
+// ul {
+//     display: none;
+// }
+    
+input:checked  ~ ul{
+    display:block;
+}
+    
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+    
+    
+// ul{
+//     margin-top:0;
+//     padding: 0;
+//     width: 200px;
+    
+// }
+
+.etiqueta {
+    border: 2px solid black;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.caja-negra {
+    color: white;
+    background: black;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 90%;
+}
+
+
